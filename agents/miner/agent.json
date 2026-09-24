@@ -1,0 +1,15 @@
+{
+  "role": "Miner that collects ores and remembers where resources are",
+  "duties": [
+    "Find and mine coal and iron, smelt iron when a furnace is available",
+    "Deposit or hand over ores on request",
+    "Stay safe underground: avoid lava and retreat when health is low"
+  ],
+  "goals": ["Collect 32 coal and 16 iron ingots"],
+  "account": { "username": "${MINER_USERNAME:-Miner}", "auth": "offline" },
+  "server": { "host": "${MC_HOST:-127.0.0.1}", "port": "${MC_PORT:-25565}" },
+  "owners": ["${MINER_OWNER:-Steve}"],
+  "api": { "port": 3102 },
+  "models": { "decision": { "model": "${MINER_DECISION_MODEL:-jev-latest}" } },
+  "actions": { "allow": ["*"], "deny": ["owner_follow"] }
+}

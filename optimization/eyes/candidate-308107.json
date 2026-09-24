@@ -1,0 +1,364 @@
+{
+  "seed": "308107",
+  "spawn": [
+    160,
+    64
+  ],
+  "village": [
+    32,
+    64
+  ],
+  "ruin": [
+    96,
+    64
+  ],
+  "fortress": [
+    160,
+    16
+  ],
+  "bastion": [
+    96,
+    -80
+  ],
+  "chests": [
+    {
+      "p": {
+        "x": 38,
+        "y": 73,
+        "z": 67
+      },
+      "items": [
+        {
+          "name": "beef",
+          "count": 2
+        },
+        {
+          "name": "beef",
+          "count": 1
+        },
+        {
+          "name": "beef",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 64,
+        "y": 74,
+        "z": 76
+      },
+      "items": [
+        {
+          "name": "paper",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "compass",
+          "count": 1
+        },
+        {
+          "name": "map",
+          "count": 1
+        },
+        {
+          "name": "paper",
+          "count": 1
+        },
+        {
+          "name": "paper",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 2
+        },
+        {
+          "name": "paper",
+          "count": 2
+        },
+        {
+          "name": "map",
+          "count": 1
+        },
+        {
+          "name": "paper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": -6,
+        "y": 75,
+        "z": 42
+      },
+      "items": [
+        {
+          "name": "map",
+          "count": 1
+        },
+        {
+          "name": "paper",
+          "count": 1
+        },
+        {
+          "name": "map",
+          "count": 1
+        },
+        {
+          "name": "map",
+          "count": 1
+        },
+        {
+          "name": "compass",
+          "count": 1
+        },
+        {
+          "name": "compass",
+          "count": 1
+        },
+        {
+          "name": "paper",
+          "count": 1
+        },
+        {
+          "name": "paper",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 6,
+        "y": 71,
+        "z": 117
+      },
+      "items": [
+        {
+          "name": "leather",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 2,
+        "y": 66,
+        "z": 4
+      },
+      "items": [
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "map",
+          "count": 1
+        },
+        {
+          "name": "map",
+          "count": 1
+        },
+        {
+          "name": "map",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "beds": [
+    {
+      "x": 51,
+      "y": 71,
+      "z": 43
+    },
+    {
+      "x": 76,
+      "y": 72,
+      "z": 65
+    },
+    {
+      "x": 84,
+      "y": 72,
+      "z": 61
+    },
+    {
+      "x": 84,
+      "y": 72,
+      "z": 61
+    },
+    {
+      "x": 76,
+      "y": 72,
+      "z": 65
+    },
+    {
+      "x": 51,
+      "y": 71,
+      "z": 43
+    }
+  ],
+  "portalBlocks": [
+    {
+      "p": {
+        "x": 99,
+        "y": 75,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 99,
+        "y": 74,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 99,
+        "y": 76,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 99,
+        "y": 73,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 99,
+        "y": 72,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 100,
+        "y": 76,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 100,
+        "y": 72,
+        "z": 67
+      },
+      "name": "crying_obsidian"
+    },
+    {
+      "p": {
+        "x": 99,
+        "y": 75,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 99,
+        "y": 74,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 99,
+        "y": 76,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 99,
+        "y": 73,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 100,
+        "y": 76,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 99,
+        "y": 72,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 100,
+        "y": 72,
+        "z": 67
+      },
+      "name": "crying_obsidian"
+    },
+    {
+      "p": {
+        "x": 101,
+        "y": 76,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 101,
+        "y": 72,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 102,
+        "y": 73,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 102,
+        "y": 72,
+        "z": 67
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 102,
+        "y": 72,
+        "z": 70
+      },
+      "name": "obsidian"
+    }
+  ]
+}

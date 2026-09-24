@@ -1,0 +1,10 @@
+import fs from 'node:fs';import zlib from 'node:zlib';import nbt from 'prismarine-nbt';
+const world='optimized-final-02/DIM1',cache=new Map();const u64=a=>BigInt.asUintN(64,(BigInt(a[0])<<32n)|BigInt(a[1]>>>0));
+async function block(x,y,z){const cx=Math.floor(x/16),cz=Math.floor(z/16),key=cx+','+cz;if(!cache.has(key)){const rx=Math.floor(cx/32),rz=Math.floor(cz/32),data=fs.readFileSync(`server/${world}/region/r.${rx}.${rz}.mca`),ix=((cx%32)+32)%32,iz=((cz%32)+32)%32,off=data.readUIntBE((ix+iz*32)*4,3)*4096;if(!off)return '?';const len=data.readUInt32BE(off);const {parsed}=await nbt.parse(zlib.inflateSync(data.subarray(off+5,off+4+len)));cache.set(key,nbt.simplify(parsed).Level.Sections);}
+const s=cache.get(key).find(s=>s.Y===Math.floor(y/16));if(!s?.Palette)return 'air';if(s.Palette.length===1)return s.Palette[0].Name.slice(10);const bits=Math.max(4,Math.ceil(Math.log2(s.Palette.length))),per=Math.floor(64/bits),j=(y%16)*256+((z%16+16)%16)*16+(x%16+16)%16,index=Number((u64(s.BlockStates[Math.floor(j/per)])>>BigInt(j%per*bits))&((1n<<BigInt(bits))-1n));return s.Palette[index].Name.slice(10);}
+
+const {Vec3}=await import('vec3');const {breathEscapeRoutes}=await import('../breath-safety.mjs');
+const rows=fs.readFileSync('runs/optimized-final-02/events.jsonl','utf8').trim().split('\n').map(JSON.parse);const e=rows.find(e=>e.type==='decision'&&e.step===171),state=JSON.parse(e.request.state),p=new Vec3(state.position.x,state.position.y,state.position.z),blocks=new Map();
+for(let x=-21;x<=8;x++)for(let z=-14;z<=14;z++)for(let y=54;y<=69;y++)blocks.set([x,y,z].join(','),await block(x,y,z));
+const bot={blockAt:q=>{const name=blocks.get([q.x,q.y,q.z].join(','));return name?{name,boundingBox:['air','cave_air','void_air','torch','wall_torch'].includes(name)?'empty':'block'}:null;}};
+const routes=breathEscapeRoutes(bot,p,state.battle.breathClouds);if(!routes.length)throw Error('No safe escape in recorded terrain');if(routes.some(r=>r.dx>.1))throw Error('Unsafe east escape remains');fs.writeFileSync('optimization/breath-replay.json',JSON.stringify({sourceRun:state.run,step:e.step,position:p,routes},null,2));console.log(JSON.stringify(routes));

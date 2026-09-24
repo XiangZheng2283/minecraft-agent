@@ -1,0 +1,588 @@
+{
+  "seed": "664012",
+  "version": "1.16.5",
+  "difficulty": "easy",
+  "requiresEyes": true,
+  "requiresNether": true,
+  "missingEyes": 10,
+  "obsidianNeeded": 7,
+  "needBucket": false,
+  "village": {
+    "x": 128,
+    "y": 70,
+    "z": 64
+  },
+  "chests": [
+    {
+      "x": 161,
+      "y": 70,
+      "z": 86
+    },
+    {
+      "x": 150,
+      "y": 19,
+      "z": 99
+    }
+  ],
+  "entryPortal": {
+    "x": 147,
+    "y": 19,
+    "z": 100,
+    "axis": "x"
+  },
+  "netherEntry": {
+    "x": 34,
+    "y": 49,
+    "z": 11
+  },
+  "bastion": {
+    "x": -118,
+    "y": 85,
+    "z": 43
+  },
+  "fortress": {
+    "x": 48,
+    "y": 77,
+    "z": -104
+  },
+  "activePortal": {
+    "x": -1961,
+    "y": 45,
+    "z": 301
+  },
+  "strongholdStand": {
+    "x": -1957,
+    "y": 45,
+    "z": 301
+  },
+  "bastionChests": [
+    {
+      "x": -120,
+      "y": 59,
+      "z": 11
+    },
+    {
+      "x": -116,
+      "y": 82,
+      "z": 43
+    },
+    {
+      "x": -129,
+      "y": 82,
+      "z": 39
+    },
+    {
+      "x": -131,
+      "y": 82,
+      "z": 41
+    },
+    {
+      "x": -131,
+      "y": 36,
+      "z": -5
+    },
+    {
+      "x": -144,
+      "y": 38,
+      "z": -12
+    }
+  ],
+  "beds": [
+    {
+      "x": 116,
+      "y": 71,
+      "z": 48
+    },
+    {
+      "x": 146,
+      "y": 66,
+      "z": 79
+    },
+    {
+      "x": 117,
+      "y": 70,
+      "z": 38
+    },
+    {
+      "x": 105,
+      "y": 72,
+      "z": 46
+    },
+    {
+      "x": 158,
+      "y": 66,
+      "z": 77
+    },
+    {
+      "x": 115,
+      "y": 73,
+      "z": 16
+    },
+    {
+      "x": 75,
+      "y": 76,
+      "z": 28
+    },
+    {
+      "x": 75,
+      "y": 76,
+      "z": 26
+    }
+  ],
+  "naturalPortalEvidence": "optimization/eyes/664012-stronghold.json",
+  "notes": "Ten empty frames verified, no active End portal. Blacksmith supplies 7 obsidian,6iron,iron sword,iron boots. Ruin chest supplies2obsidian,gold chestplate,2fire charges. Repair requires3obsidian. Use hay by blacksmith for16bread. Craft iron pick and shield, collect8beds. Return sameNetherportal after5rods+10pearls. Final portal centre property is named activePortal for compatibility; it is initially inactive.",
+  "bastionChestLoot": [
+    {
+      "x": -120,
+      "y": 59,
+      "z": 11,
+      "loot": [
+        {
+          "name": "cooked_porkchop",
+          "count": 1
+        },
+        {
+          "name": "iron_nugget",
+          "count": 1
+        },
+        {
+          "name": "gold_nugget",
+          "count": 2
+        },
+        {
+          "name": "iron_nugget",
+          "count": 3
+        },
+        {
+          "name": "gold_ingot",
+          "count": 4
+        },
+        {
+          "name": "gold_ingot",
+          "count": 2
+        },
+        {
+          "name": "golden_carrot",
+          "count": 5
+        },
+        {
+          "name": "golden_leggings",
+          "count": 1
+        },
+        {
+          "name": "gold_nugget",
+          "count": 3
+        },
+        {
+          "name": "golden_carrot",
+          "count": 4
+        },
+        {
+          "name": "iron_nugget",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "x": -116,
+      "y": 82,
+      "z": 43,
+      "loot": [
+        {
+          "name": "spectral_arrow",
+          "count": 1
+        },
+        {
+          "name": "iron_block",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "spectral_arrow",
+          "count": 14
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 2
+        },
+        {
+          "name": "gold_ingot",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "gold_ingot",
+          "count": 1
+        },
+        {
+          "name": "gold_ingot",
+          "count": 1
+        },
+        {
+          "name": "obsidian",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "obsidian",
+          "count": 4
+        },
+        {
+          "name": "spectral_arrow",
+          "count": 1
+        },
+        {
+          "name": "iron_nugget",
+          "count": 1
+        },
+        {
+          "name": "gold_block",
+          "count": 1
+        },
+        {
+          "name": "iron_nugget",
+          "count": 1
+        },
+        {
+          "name": "iron_nugget",
+          "count": 1
+        },
+        {
+          "name": "cooked_porkchop",
+          "count": 1
+        },
+        {
+          "name": "gold_block",
+          "count": 1
+        },
+        {
+          "name": "iron_nugget",
+          "count": 1
+        },
+        {
+          "name": "iron_nugget",
+          "count": 3
+        },
+        {
+          "name": "iron_nugget",
+          "count": 1
+        },
+        {
+          "name": "iron_nugget",
+          "count": 1
+        },
+        {
+          "name": "piglin_banner_pattern",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "x": -129,
+      "y": 82,
+      "z": 39,
+      "loot": [
+        {
+          "name": "obsidian",
+          "count": 1
+        },
+        {
+          "name": "arrow",
+          "count": 3
+        },
+        {
+          "name": "golden_chestplate",
+          "count": 1
+        },
+        {
+          "name": "arrow",
+          "count": 1
+        },
+        {
+          "name": "golden_boots",
+          "count": 1
+        },
+        {
+          "name": "arrow",
+          "count": 1
+        },
+        {
+          "name": "ancient_debris",
+          "count": 1
+        },
+        {
+          "name": "bone_block",
+          "count": 3
+        },
+        {
+          "name": "obsidian",
+          "count": 1
+        },
+        {
+          "name": "arrow",
+          "count": 3
+        },
+        {
+          "name": "bone_block",
+          "count": 1
+        },
+        {
+          "name": "obsidian",
+          "count": 3
+        },
+        {
+          "name": "arrow",
+          "count": 2
+        },
+        {
+          "name": "arrow",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "x": -131,
+      "y": 82,
+      "z": 41,
+      "loot": [
+        {
+          "name": "bone_block",
+          "count": 1
+        },
+        {
+          "name": "magma_cream",
+          "count": 2
+        },
+        {
+          "name": "magma_cream",
+          "count": 2
+        },
+        {
+          "name": "bone_block",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 2
+        },
+        {
+          "name": "arrow",
+          "count": 3
+        },
+        {
+          "name": "iron_sword",
+          "count": 1
+        },
+        {
+          "name": "gold_ingot",
+          "count": 1
+        },
+        {
+          "name": "gold_ingot",
+          "count": 2
+        },
+        {
+          "name": "arrow",
+          "count": 6
+        },
+        {
+          "name": "magma_cream",
+          "count": 1
+        },
+        {
+          "name": "bone_block",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "crossbow",
+          "count": 1
+        },
+        {
+          "name": "gold_ingot",
+          "count": 2
+        },
+        {
+          "name": "gold_ingot",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "x": -131,
+      "y": 36,
+      "z": -5,
+      "loot": [
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "ancient_debris",
+          "count": 1
+        },
+        {
+          "name": "diamond_leggings",
+          "count": 1
+        },
+        {
+          "name": "gold_block",
+          "count": 2
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 3
+        },
+        {
+          "name": "ancient_debris",
+          "count": 1
+        },
+        {
+          "name": "quartz",
+          "count": 3
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "quartz",
+          "count": 4
+        },
+        {
+          "name": "ancient_debris",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 2
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "quartz",
+          "count": 16
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 4
+        },
+        {
+          "name": "gold_block",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "x": -144,
+      "y": 38,
+      "z": -12,
+      "loot": [
+        {
+          "name": "string",
+          "count": 1
+        },
+        {
+          "name": "golden_carrot",
+          "count": 1
+        },
+        {
+          "name": "iron_ingot",
+          "count": 1
+        },
+        {
+          "name": "golden_carrot",
+          "count": 1
+        },
+        {
+          "name": "golden_carrot",
+          "count": 9
+        },
+        {
+          "name": "golden_leggings",
+          "count": 1
+        },
+        {
+          "name": "arrow",
+          "count": 4
+        },
+        {
+          "name": "iron_ingot",
+          "count": 1
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 4
+        },
+        {
+          "name": "gilded_blackstone",
+          "count": 1
+        },
+        {
+          "name": "arrow",
+          "count": 2
+        },
+        {
+          "name": "string",
+          "count": 4
+        },
+        {
+          "name": "arrow",
+          "count": 8
+        },
+        {
+          "name": "iron_ingot",
+          "count": 1
+        },
+        {
+          "name": "golden_carrot",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "foodPoint": {
+    "x": 152,
+    "y": 70,
+    "z": 90
+  },
+  "netherTravel": "Covered shafts and checked roof tunnels. Fight brutes from the upper shaft shelter. Return through the same routes and original portal."
+}

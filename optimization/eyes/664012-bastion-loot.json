@@ -1,0 +1,448 @@
+[
+  {
+    "x": -120,
+    "y": 59,
+    "z": 11,
+    "loot": [
+      {
+        "name": "cooked_porkchop",
+        "count": 1
+      },
+      {
+        "name": "iron_nugget",
+        "count": 1
+      },
+      {
+        "name": "gold_nugget",
+        "count": 2
+      },
+      {
+        "name": "iron_nugget",
+        "count": 3
+      },
+      {
+        "name": "gold_ingot",
+        "count": 4
+      },
+      {
+        "name": "gold_ingot",
+        "count": 2
+      },
+      {
+        "name": "golden_carrot",
+        "count": 5
+      },
+      {
+        "name": "golden_leggings",
+        "count": 1
+      },
+      {
+        "name": "gold_nugget",
+        "count": 3
+      },
+      {
+        "name": "golden_carrot",
+        "count": 4
+      },
+      {
+        "name": "iron_nugget",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "x": -116,
+    "y": 82,
+    "z": 43,
+    "loot": [
+      {
+        "name": "spectral_arrow",
+        "count": 1
+      },
+      {
+        "name": "iron_block",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "spectral_arrow",
+        "count": 14
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 2
+      },
+      {
+        "name": "gold_ingot",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "gold_ingot",
+        "count": 1
+      },
+      {
+        "name": "gold_ingot",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 4
+      },
+      {
+        "name": "spectral_arrow",
+        "count": 1
+      },
+      {
+        "name": "iron_nugget",
+        "count": 1
+      },
+      {
+        "name": "gold_block",
+        "count": 1
+      },
+      {
+        "name": "iron_nugget",
+        "count": 1
+      },
+      {
+        "name": "iron_nugget",
+        "count": 1
+      },
+      {
+        "name": "cooked_porkchop",
+        "count": 1
+      },
+      {
+        "name": "gold_block",
+        "count": 1
+      },
+      {
+        "name": "iron_nugget",
+        "count": 1
+      },
+      {
+        "name": "iron_nugget",
+        "count": 3
+      },
+      {
+        "name": "iron_nugget",
+        "count": 1
+      },
+      {
+        "name": "iron_nugget",
+        "count": 1
+      },
+      {
+        "name": "piglin_banner_pattern",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "x": -129,
+    "y": 82,
+    "z": 39,
+    "loot": [
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "arrow",
+        "count": 3
+      },
+      {
+        "name": "golden_chestplate",
+        "count": 1
+      },
+      {
+        "name": "arrow",
+        "count": 1
+      },
+      {
+        "name": "golden_boots",
+        "count": 1
+      },
+      {
+        "name": "arrow",
+        "count": 1
+      },
+      {
+        "name": "ancient_debris",
+        "count": 1
+      },
+      {
+        "name": "bone_block",
+        "count": 3
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "arrow",
+        "count": 3
+      },
+      {
+        "name": "bone_block",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 3
+      },
+      {
+        "name": "arrow",
+        "count": 2
+      },
+      {
+        "name": "arrow",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "x": -131,
+    "y": 82,
+    "z": 41,
+    "loot": [
+      {
+        "name": "bone_block",
+        "count": 1
+      },
+      {
+        "name": "magma_cream",
+        "count": 2
+      },
+      {
+        "name": "magma_cream",
+        "count": 2
+      },
+      {
+        "name": "bone_block",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 2
+      },
+      {
+        "name": "arrow",
+        "count": 3
+      },
+      {
+        "name": "iron_sword",
+        "count": 1
+      },
+      {
+        "name": "gold_ingot",
+        "count": 1
+      },
+      {
+        "name": "gold_ingot",
+        "count": 2
+      },
+      {
+        "name": "arrow",
+        "count": 6
+      },
+      {
+        "name": "magma_cream",
+        "count": 1
+      },
+      {
+        "name": "bone_block",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "crossbow",
+        "count": 1
+      },
+      {
+        "name": "gold_ingot",
+        "count": 2
+      },
+      {
+        "name": "gold_ingot",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "x": -131,
+    "y": 36,
+    "z": -5,
+    "loot": [
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "ancient_debris",
+        "count": 1
+      },
+      {
+        "name": "diamond_leggings",
+        "count": 1
+      },
+      {
+        "name": "gold_block",
+        "count": 2
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 3
+      },
+      {
+        "name": "ancient_debris",
+        "count": 1
+      },
+      {
+        "name": "quartz",
+        "count": 3
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "quartz",
+        "count": 4
+      },
+      {
+        "name": "ancient_debris",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 2
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "quartz",
+        "count": 16
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 4
+      },
+      {
+        "name": "gold_block",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "x": -144,
+    "y": 38,
+    "z": -12,
+    "loot": [
+      {
+        "name": "string",
+        "count": 1
+      },
+      {
+        "name": "golden_carrot",
+        "count": 1
+      },
+      {
+        "name": "iron_ingot",
+        "count": 1
+      },
+      {
+        "name": "golden_carrot",
+        "count": 1
+      },
+      {
+        "name": "golden_carrot",
+        "count": 9
+      },
+      {
+        "name": "golden_leggings",
+        "count": 1
+      },
+      {
+        "name": "arrow",
+        "count": 4
+      },
+      {
+        "name": "iron_ingot",
+        "count": 1
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 4
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 1
+      },
+      {
+        "name": "arrow",
+        "count": 2
+      },
+      {
+        "name": "string",
+        "count": 4
+      },
+      {
+        "name": "arrow",
+        "count": 8
+      },
+      {
+        "name": "iron_ingot",
+        "count": 1
+      },
+      {
+        "name": "golden_carrot",
+        "count": 1
+      }
+    ]
+  }
+]

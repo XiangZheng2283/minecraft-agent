@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {eyeNeeds} from '../../nether-supplies.mjs';
+test('missing portal slots require pearls and enough rods; existing eyes count once',()=>{assert.deepEqual(eyeNeeds({},12),{eyes:12,pearls:12,rods:6});assert.deepEqual(eyeNeeds({ender_eye:3,ender_pearl:7,blaze_rod:3,blaze_powder:1},11),{eyes:8,pearls:1,rods:1});assert.deepEqual(eyeNeeds({ender_eye:12},12),{eyes:0,pearls:0,rods:0});});

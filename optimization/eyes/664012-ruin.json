@@ -1,0 +1,242 @@
+{
+  "position": {
+    "x": 144.5,
+    "y": 50,
+    "z": 96.5
+  },
+  "groups": {
+    "obsidian": [
+      {
+        "x": 150,
+        "y": 22,
+        "z": 100,
+        "properties": {}
+      },
+      {
+        "x": 147,
+        "y": 21,
+        "z": 100,
+        "properties": {}
+      },
+      {
+        "x": 150,
+        "y": 21,
+        "z": 100,
+        "properties": {}
+      },
+      {
+        "x": 147,
+        "y": 20,
+        "z": 100,
+        "properties": {}
+      },
+      {
+        "x": 150,
+        "y": 20,
+        "z": 100,
+        "properties": {}
+      },
+      {
+        "x": 147,
+        "y": 19,
+        "z": 100,
+        "properties": {}
+      },
+      {
+        "x": 148,
+        "y": 19,
+        "z": 100,
+        "properties": {}
+      },
+      {
+        "x": 149,
+        "y": 19,
+        "z": 100,
+        "properties": {}
+      },
+      {
+        "x": 150,
+        "y": 19,
+        "z": 100,
+        "properties": {}
+      },
+      {
+        "x": 148,
+        "y": 18,
+        "z": 102,
+        "properties": {}
+      },
+      {
+        "x": 146,
+        "y": 17,
+        "z": 103,
+        "properties": {}
+      }
+    ],
+    "crying_obsidian": [],
+    "chest": [
+      {
+        "x": 161,
+        "y": 70,
+        "z": 86,
+        "properties": {
+          "waterlogged": false,
+          "type": "single",
+          "facing": "south"
+        }
+      },
+      {
+        "x": 150,
+        "y": 19,
+        "z": 99,
+        "properties": {
+          "waterlogged": false,
+          "type": "single",
+          "facing": "north"
+        }
+      },
+      {
+        "x": 119,
+        "y": 71,
+        "z": 46,
+        "properties": {
+          "waterlogged": false,
+          "type": "single",
+          "facing": "west"
+        }
+      },
+      {
+        "x": 115,
+        "y": 70,
+        "z": 35,
+        "properties": {
+          "waterlogged": false,
+          "type": "single",
+          "facing": "south"
+        }
+      }
+    ],
+    "hay_block": [
+      {
+        "x": 151,
+        "y": 70,
+        "z": 91,
+        "properties": {
+          "axis": "z"
+        }
+      },
+      {
+        "x": 152,
+        "y": 70,
+        "z": 91,
+        "properties": {
+          "axis": "y"
+        }
+      },
+      {
+        "x": 152,
+        "y": 70,
+        "z": 89,
+        "properties": {
+          "axis": "y"
+        }
+      },
+      {
+        "x": 151,
+        "y": 71,
+        "z": 91,
+        "properties": {
+          "axis": "x"
+        }
+      },
+      {
+        "x": 153,
+        "y": 70,
+        "z": 90,
+        "properties": {
+          "axis": "y"
+        }
+      },
+      {
+        "x": 152,
+        "y": 70,
+        "z": 88,
+        "properties": {
+          "axis": "z"
+        }
+      },
+      {
+        "x": 152,
+        "y": 71,
+        "z": 91,
+        "properties": {
+          "axis": "z"
+        }
+      },
+      {
+        "x": 153,
+        "y": 70,
+        "z": 89,
+        "properties": {
+          "axis": "x"
+        }
+      },
+      {
+        "x": 154,
+        "y": 70,
+        "z": 90,
+        "properties": {
+          "axis": "z"
+        }
+      },
+      {
+        "x": 153,
+        "y": 70,
+        "z": 88,
+        "properties": {
+          "axis": "z"
+        }
+      },
+      {
+        "x": 154,
+        "y": 70,
+        "z": 89,
+        "properties": {
+          "axis": "y"
+        }
+      },
+      {
+        "x": 152,
+        "y": 71,
+        "z": 89,
+        "properties": {
+          "axis": "z"
+        }
+      },
+      {
+        "x": 153,
+        "y": 71,
+        "z": 90,
+        "properties": {
+          "axis": "z"
+        }
+      },
+      {
+        "x": 152,
+        "y": 71,
+        "z": 88,
+        "properties": {
+          "axis": "x"
+        }
+      },
+      {
+        "x": 154,
+        "y": 71,
+        "z": 90,
+        "properties": {
+          "axis": "x"
+        }
+      }
+    ]
+  }
+}

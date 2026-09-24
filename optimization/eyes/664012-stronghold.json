@@ -1,0 +1,162 @@
+{
+  "position": {
+    "x": -1927.5,
+    "y": 30,
+    "z": 328.5
+  },
+  "groups": {
+    "end_portal_frame": [
+      {
+        "x": -1959,
+        "y": 45,
+        "z": 302,
+        "properties": {
+          "facing": "west",
+          "eye": false
+        }
+      },
+      {
+        "x": -1960,
+        "y": 45,
+        "z": 303,
+        "properties": {
+          "facing": "north",
+          "eye": false
+        }
+      },
+      {
+        "x": -1959,
+        "y": 45,
+        "z": 301,
+        "properties": {
+          "facing": "west",
+          "eye": false
+        }
+      },
+      {
+        "x": -1961,
+        "y": 45,
+        "z": 303,
+        "properties": {
+          "facing": "north",
+          "eye": true
+        }
+      },
+      {
+        "x": -1959,
+        "y": 45,
+        "z": 300,
+        "properties": {
+          "facing": "west",
+          "eye": false
+        }
+      },
+      {
+        "x": -1962,
+        "y": 45,
+        "z": 303,
+        "properties": {
+          "facing": "north",
+          "eye": false
+        }
+      },
+      {
+        "x": -1960,
+        "y": 45,
+        "z": 299,
+        "properties": {
+          "facing": "south",
+          "eye": true
+        }
+      },
+      {
+        "x": -1963,
+        "y": 45,
+        "z": 302,
+        "properties": {
+          "facing": "east",
+          "eye": false
+        }
+      },
+      {
+        "x": -1961,
+        "y": 45,
+        "z": 299,
+        "properties": {
+          "facing": "south",
+          "eye": false
+        }
+      },
+      {
+        "x": -1963,
+        "y": 45,
+        "z": 301,
+        "properties": {
+          "facing": "east",
+          "eye": false
+        }
+      },
+      {
+        "x": -1962,
+        "y": 45,
+        "z": 299,
+        "properties": {
+          "facing": "south",
+          "eye": false
+        }
+      },
+      {
+        "x": -1963,
+        "y": 45,
+        "z": 300,
+        "properties": {
+          "facing": "east",
+          "eye": false
+        }
+      }
+    ],
+    "end_portal": [],
+    "chest": [
+      {
+        "x": -1926,
+        "y": 36,
+        "z": 325,
+        "properties": {
+          "waterlogged": false,
+          "type": "single",
+          "facing": "west"
+        }
+      },
+      {
+        "x": -1941,
+        "y": 34,
+        "z": 345,
+        "properties": {
+          "waterlogged": false,
+          "type": "single",
+          "facing": "west"
+        }
+      },
+      {
+        "x": -1950,
+        "y": 29,
+        "z": 349,
+        "properties": {
+          "waterlogged": false,
+          "type": "single",
+          "facing": "west"
+        }
+      },
+      {
+        "x": -1947,
+        "y": 44,
+        "z": 302,
+        "properties": {
+          "waterlogged": false,
+          "type": "single",
+          "facing": "north"
+        }
+      }
+    ]
+  }
+}

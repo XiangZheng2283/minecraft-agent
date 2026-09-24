@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "mode": "dragon-speedrun",
+  "role": "Seeded Nether-route dragon speedrun (runs nether-agent.mjs)",
+  "account": { "username": "${MC_USERNAME:-JevAstra}", "auth": "offline" },
+  "server": { "host": "127.0.0.1", "port": "${MC_PORT:-25576}" },
+  "api": { "port": 3078 }
+}

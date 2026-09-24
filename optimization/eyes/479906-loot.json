@@ -1,0 +1,108 @@
+[
+  {
+    "position": [
+      103,
+      63,
+      119
+    ],
+    "items": [
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 2
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 2
+      },
+      {
+        "name": "bread",
+        "count": 2
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "snowball",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "position": [
+      25,
+      74,
+      67
+    ],
+    "items": [
+      {
+        "name": "golden_carrot",
+        "count": 8
+      },
+      {
+        "name": "fire_charge",
+        "count": 1
+      },
+      {
+        "name": "flint",
+        "count": 1
+      },
+      {
+        "name": "golden_pickaxe",
+        "count": 1
+      },
+      {
+        "name": "golden_chestplate",
+        "count": 1
+      },
+      {
+        "name": "golden_boots",
+        "count": 1
+      },
+      {
+        "name": "flint",
+        "count": 2
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "golden_carrot",
+        "count": 2
+      },
+      {
+        "name": "golden_hoe",
+        "count": 1
+      }
+    ]
+  }
+]

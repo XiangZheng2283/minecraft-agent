@@ -1,0 +1,312 @@
+[
+  {
+    "position": {
+      "x": -174,
+      "y": 70,
+      "z": 254
+    },
+    "items": [
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 3
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 3
+      },
+      {
+        "name": "potato",
+        "count": 3
+      },
+      {
+        "name": "bread",
+        "count": 2
+      },
+      {
+        "name": "potato",
+        "count": 5
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "position": {
+      "x": -225,
+      "y": 68,
+      "z": 251
+    },
+    "items": [
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "map",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "position": {
+      "x": -228,
+      "y": 71,
+      "z": 240
+    },
+    "items": [
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "iron_pickaxe",
+        "count": 1
+      },
+      {
+        "name": "gold_ingot",
+        "count": 1
+      },
+      {
+        "name": "iron_helmet",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 2
+      },
+      {
+        "name": "obsidian",
+        "count": 4
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "gold_ingot",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "iron_helmet",
+        "count": 1
+      },
+      {
+        "name": "iron_sword",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "position": {
+      "x": -213,
+      "y": 69,
+      "z": 273
+    },
+    "items": [
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "leather_chestplate",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "position": {
+      "x": -244,
+      "y": 72,
+      "z": 254
+    },
+    "items": [
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "oak_sapling",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "potato",
+        "count": 1
+      },
+      {
+        "name": "oak_sapling",
+        "count": 1
+      },
+      {
+        "name": "oak_sapling",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "oak_sapling",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "position": {
+      "x": -226,
+      "y": 74,
+      "z": 299
+    },
+    "items": [
+      {
+        "name": "oak_sapling",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "oak_sapling",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "apple",
+        "count": 1
+      },
+      {
+        "name": "oak_sapling",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 2
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      }
+    ]
+  }
+]

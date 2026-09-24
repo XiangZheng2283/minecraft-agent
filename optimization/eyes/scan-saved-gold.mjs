@@ -1,0 +1,9 @@
+// Read-only scan of already saved nearby Nether chunks. No game commands.
+import fs from 'node:fs';import zlib from 'node:zlib';import nbt from 'prismarine-nbt';
+const root=process.argv[2]||'fortress-lab/eyes-final-07/DIM-1/region',regions=new Map(),gold=[],ore=[];
+for(let cx=-12;cx<=-5;cx++)for(let cz=0;cz<=6;cz++){
+ const file=`${root}/r.${Math.floor(cx/32)}.${Math.floor(cz/32)}.mca`;if(!fs.existsSync(file))continue;if(!regions.has(file))regions.set(file,fs.readFileSync(file));const b=regions.get(file),loc=((cx&31)+(cz&31)*32)*4,sector=b.readUIntBE(loc,3);if(!sector)continue;const at=sector*4096,len=b.readUInt32BE(at),type=b[at+4],raw=b.subarray(at+5,at+4+len),data=type===2?zlib.inflateSync(raw):type===1?zlib.gunzipSync(raw):raw;
+ const {parsed}=await nbt.parse(data),chunk=nbt.simplify(parsed).Level;
+ for(const s of chunk.Sections||[]){const palette=s.Palette||[],ids=palette.map((p,i)=>['minecraft:gold_block','minecraft:nether_gold_ore'].includes(p.Name)?i:-1).filter(i=>i>=0);if(!ids.length)continue;const bits=Math.max(4,Math.ceil(Math.log2(palette.length))),per=Math.floor(64/bits),mask=(1n<<BigInt(bits))-1n,words=s.BlockStates||[];for(let i=0;i<4096;i++){const w=words[Math.floor(i/per)],v=Array.isArray(w)?(BigInt(w[0]>>>0)<<32n)|BigInt(w[1]>>>0):BigInt(w||0),id=Number((v>>BigInt((i%per)*bits))&mask);if(!ids.includes(id))continue;const p={x:cx*16+(i&15),y:s.Y*16+(i>>8),z:cz*16+((i>>4)&15)};(palette[id].Name==='minecraft:gold_block'?gold:ore).push(p);}}
+}
+const result={readAt:new Date().toISOString(),savedWorld:true,goldBlocks:gold,goldOre:ore};fs.writeFileSync('optimization/eyes/saved-nearby-gold.json',JSON.stringify(result,null,2));console.log(JSON.stringify({goldBlocks:gold,oreCount:ore.length,nearbyOre:ore.sort((a,b)=>Math.hypot(a.x+126,a.y-80,a.z-44)-Math.hypot(b.x+126,b.y-80,b.z-44)).slice(0,8)},null,2));

@@ -1,0 +1,116 @@
+[
+  {
+    "position": {
+      "x": -284,
+      "y": 66,
+      "z": 262
+    },
+    "items": [
+      {
+        "name": "flint",
+        "count": 1
+      },
+      {
+        "name": "golden_leggings",
+        "count": 1
+      },
+      {
+        "name": "glistering_melon_slice",
+        "count": 2
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "glistering_melon_slice",
+        "count": 2
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "position": {
+      "x": -290,
+      "y": 68,
+      "z": 253
+    },
+    "items": [
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "iron_ingot",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "iron_ingot",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 5
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "bread",
+        "count": 1
+      },
+      {
+        "name": "diamond_horse_armor",
+        "count": 1
+      },
+      {
+        "name": "iron_ingot",
+        "count": 3
+      },
+      {
+        "name": "saddle",
+        "count": 1
+      },
+      {
+        "name": "obsidian",
+        "count": 1
+      },
+      {
+        "name": "iron_ingot",
+        "count": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+Optimization trial: use the required kit only, then travel directly to the verified portal. JEV chooses all player actions. Do not repeat actions that made no progress. On Peaceful do not gather food or armor. In the End, choose one timed bed attack whenever safe and offered; use escape actions immediately if breath reaches the player. Enter the exit portal after the dragon dies.

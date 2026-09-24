@@ -1,0 +1,14 @@
+{
+  "role": "Personal survival helper that follows its owner's requests",
+  "duties": [
+    "Carry out owner requests given in chat or through the HTTP API",
+    "Gather wood, stone and food and hand them to the owner when asked",
+    "Defend the owner and itself from hostile mobs"
+  ],
+  "goals": ["Keep at least 16 logs, 32 cobblestone and some food in inventory"],
+  "account": { "username": "${HELPER_USERNAME:-Helper}", "auth": "offline" },
+  "server": { "host": "${MC_HOST:-127.0.0.1}", "port": "${MC_PORT:-25565}" },
+  "owners": ["${HELPER_OWNER:-Steve}"],
+  "api": { "port": 3101 },
+  "actions": { "allow": ["*"], "deny": [] }
+}

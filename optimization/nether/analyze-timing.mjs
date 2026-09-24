@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+const run=process.argv[2],dir='runs/'+run,e=fs.readFileSync(dir+'/events.jsonl','utf8').trim().split('\n').map(JSON.parse),decisions=e.filter(e=>e.type==='decision'),results=e.filter(e=>e.type==='result');
+const sorted=decisions.map(e=>e.latencyMs).filter(Number.isFinite).sort((a,b)=>a-b),percentile=p=>sorted[Math.min(sorted.length-1,Math.floor(sorted.length*p))];
+let previousResult=null,gaps=[];for(const row of e){if(row.type==='result')previousResult=row;if(row.type==='decision'&&previousResult){gaps.push(Date.parse(row.time)-Date.parse(previousResult.time));previousResult=null;}}
+const starts=e.filter(e=>e.type==='planner_request'),ready=e.filter(e=>e.type==='planner_ready');
+const overlap=ready.map(r=>{const start=starts.filter(s=>s.stage===r.stage&&s.time<r.time).at(-1);return {seconds:r.wallMs/1000,actionsFinishedDuringPlan:results.filter(x=>start&&x.time>start.time&&x.time<r.time).length};});
+const proof={run,decisions:decisions.length,jevMs:{median:percentile(.5),p95:percentile(.95),max:sorted.at(-1)},betweenActionsMs:{total:gaps.reduce((a,b)=>a+b,0),average:gaps.reduce((a,b)=>a+b,0)/gaps.length,max:Math.max(0,...gaps)},plannerCalls:ready.length,plannerOverlap:overlap,failedActions:results.filter(e=>e.result.startsWith('FAILED')).map(({step,action,result})=>({step,action,result})),cameraSamples:e.filter(e=>e.type==='camera_turn').length,maxCameraStepDegrees:Math.max(0,...e.filter(e=>e.type==='camera_turn').map(e=>e.degrees)),captureFailures:e.filter(e=>e.type==='capture_failure').length};
+fs.writeFileSync(dir+'/timing-analysis.json',JSON.stringify(proof,null,2));console.log(JSON.stringify({...proof,plannerOverlap:undefined,failedActions:proof.failedActions.length},null,2));

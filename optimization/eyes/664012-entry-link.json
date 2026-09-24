@@ -1,0 +1,650 @@
+{
+  "position": {
+    "x": 34.49999696016312,
+    "y": 49,
+    "z": 11.5
+  },
+  "dimension": "the_nether",
+  "groups": {
+    "chest": [],
+    "white_bed": [],
+    "yellow_bed": [],
+    "red_bed": [],
+    "obsidian": [
+      {
+        "x": 33,
+        "y": 49,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 34,
+        "y": 48,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 48,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 50,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 35,
+        "y": 48,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 49,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 51,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 48,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 50,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 51,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 34,
+        "y": 52,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 52,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 35,
+        "y": 52,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 52,
+        "z": 11,
+        "properties": {}
+      }
+    ],
+    "crying_obsidian": [],
+    "end_portal": [],
+    "end_portal_frame": [],
+    "nether_portal": [
+      {
+        "x": 34,
+        "y": 49,
+        "z": 11,
+        "properties": {
+          "axis": "x"
+        }
+      },
+      {
+        "x": 34,
+        "y": 50,
+        "z": 11,
+        "properties": {
+          "axis": "x"
+        }
+      },
+      {
+        "x": 35,
+        "y": 49,
+        "z": 11,
+        "properties": {
+          "axis": "x"
+        }
+      },
+      {
+        "x": 35,
+        "y": 50,
+        "z": 11,
+        "properties": {
+          "axis": "x"
+        }
+      },
+      {
+        "x": 34,
+        "y": 51,
+        "z": 11,
+        "properties": {
+          "axis": "x"
+        }
+      },
+      {
+        "x": 35,
+        "y": 51,
+        "z": 11,
+        "properties": {
+          "axis": "x"
+        }
+      }
+    ],
+    "gravel": [
+      {
+        "x": 36,
+        "y": 31,
+        "z": 4,
+        "properties": {}
+      },
+      {
+        "x": 37,
+        "y": 31,
+        "z": 4,
+        "properties": {}
+      },
+      {
+        "x": 38,
+        "y": 31,
+        "z": 4,
+        "properties": {}
+      },
+      {
+        "x": 39,
+        "y": 31,
+        "z": 4,
+        "properties": {}
+      },
+      {
+        "x": 41,
+        "y": 32,
+        "z": 19,
+        "properties": {}
+      },
+      {
+        "x": 40,
+        "y": 31,
+        "z": 4,
+        "properties": {}
+      },
+      {
+        "x": 44,
+        "y": 31,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 45,
+        "y": 31,
+        "z": 13,
+        "properties": {}
+      },
+      {
+        "x": 45,
+        "y": 31,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 45,
+        "y": 31,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 46,
+        "y": 31,
+        "z": 13,
+        "properties": {}
+      },
+      {
+        "x": 46,
+        "y": 31,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 47,
+        "y": 31,
+        "z": 13,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 27,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 35,
+        "y": 27,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 27,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 34,
+        "y": 26,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 26,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 35,
+        "y": 26,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 26,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 34,
+        "y": 26,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 26,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 35,
+        "y": 26,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 32,
+        "y": 26,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 26,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 37,
+        "y": 26,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 34,
+        "y": 25,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 25,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 35,
+        "y": 25,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 25,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 34,
+        "y": 25,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 25,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 35,
+        "y": 25,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 32,
+        "y": 25,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 25,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 37,
+        "y": 25,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 35,
+        "y": 24,
+        "z": 14,
+        "properties": {}
+      },
+      {
+        "x": 34,
+        "y": 24,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 24,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 35,
+        "y": 24,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 32,
+        "y": 24,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 36,
+        "y": 24,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 33,
+        "y": 23,
+        "z": 15,
+        "properties": {}
+      },
+      {
+        "x": 38,
+        "y": 18,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 39,
+        "y": 18,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 39,
+        "y": 18,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 40,
+        "y": 18,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 40,
+        "y": 18,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 41,
+        "y": 18,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 41,
+        "y": 18,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 41,
+        "y": 18,
+        "z": 12,
+        "properties": {}
+      },
+      {
+        "x": 42,
+        "y": 18,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 42,
+        "y": 18,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 37,
+        "y": 17,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 37,
+        "y": 17,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 37,
+        "y": 17,
+        "z": 12,
+        "properties": {}
+      },
+      {
+        "x": 38,
+        "y": 17,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 38,
+        "y": 17,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 38,
+        "y": 17,
+        "z": 12,
+        "properties": {}
+      },
+      {
+        "x": 39,
+        "y": 17,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 39,
+        "y": 17,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 39,
+        "y": 17,
+        "z": 12,
+        "properties": {}
+      },
+      {
+        "x": 39,
+        "y": 17,
+        "z": 9,
+        "properties": {}
+      },
+      {
+        "x": 40,
+        "y": 17,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 40,
+        "y": 17,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 40,
+        "y": 17,
+        "z": 12,
+        "properties": {}
+      },
+      {
+        "x": 40,
+        "y": 17,
+        "z": 9,
+        "properties": {}
+      },
+      {
+        "x": 41,
+        "y": 17,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 41,
+        "y": 17,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 41,
+        "y": 17,
+        "z": 12,
+        "properties": {}
+      },
+      {
+        "x": 41,
+        "y": 17,
+        "z": 9,
+        "properties": {}
+      },
+      {
+        "x": 42,
+        "y": 17,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 42,
+        "y": 17,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 42,
+        "y": 17,
+        "z": 12,
+        "properties": {}
+      },
+      {
+        "x": 42,
+        "y": 17,
+        "z": 9,
+        "properties": {}
+      },
+      {
+        "x": 37,
+        "y": 16,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 37,
+        "y": 16,
+        "z": 10,
+        "properties": {}
+      },
+      {
+        "x": 37,
+        "y": 16,
+        "z": 12,
+        "properties": {}
+      },
+      {
+        "x": 38,
+        "y": 16,
+        "z": 11,
+        "properties": {}
+      },
+      {
+        "x": 43,
+        "y": 17,
+        "z": 11,
+        "properties": {}
+      }
+    ],
+    "spawner": [],
+    "gold_block": [],
+    "orange_bed": [],
+    "magenta_bed": [],
+    "light_blue_bed": [],
+    "lime_bed": [],
+    "pink_bed": [],
+    "gray_bed": [],
+    "light_gray_bed": [],
+    "cyan_bed": [],
+    "purple_bed": [],
+    "blue_bed": [],
+    "brown_bed": [],
+    "green_bed": [],
+    "black_bed": []
+  }
+}

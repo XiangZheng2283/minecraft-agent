@@ -1,0 +1,4 @@
+import {Vec3} from 'vec3';
+export function onMagma(bot){const p=bot.entity?.position;if(!p)return false;for(const x of [-.29,.29])for(const z of [-.29,.29])if(bot.blockAt(new Vec3(p.x+x,p.y-.05,p.z+z).floored())?.name==='magma_block')return true;return false;}
+export function groundStepCost(bot,block){return block?.position&&bot.blockAt(block.position.offset(0,-1,0))?.name==='magma_block'?100:0;}
+export function installGroundSafety(bot,log=()=>{}){const control=bot.setControlState.bind(bot);let requested=false,guarded=false;bot.setControlState=(key,value)=>{if(key==='sneak'){requested=value;return control(key,value||onMagma(bot));}return control(key,value);};bot.on('physicsTick',()=>{const active=onMagma(bot);if(active!==guarded){log('ground_guard',{active,hazard:'magma_block'});guarded=active;}control('sneak',requested||active);});}

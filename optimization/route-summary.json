@@ -1,0 +1,85 @@
+{
+  "seed": "-4530634556500121041",
+  "source": "Read-only terrain survey of prior runs; no world edits",
+  "waypoints": [
+    {
+      "x": 204,
+      "y": 63,
+      "z": 140,
+      "terrain": "water"
+    },
+    {
+      "x": 236,
+      "y": 63,
+      "z": 40,
+      "terrain": "water"
+    },
+    {
+      "x": 272,
+      "y": 63,
+      "z": -112,
+      "terrain": "water"
+    },
+    {
+      "x": 384,
+      "y": 63,
+      "z": -224,
+      "terrain": "water"
+    },
+    {
+      "x": 496,
+      "y": 63,
+      "z": -336,
+      "terrain": "water"
+    },
+    {
+      "x": 608,
+      "y": 63,
+      "z": -448,
+      "terrain": "water"
+    },
+    {
+      "x": 628,
+      "y": 63,
+      "z": -604,
+      "terrain": "water"
+    },
+    {
+      "x": 596,
+      "y": 63,
+      "z": -756,
+      "terrain": "water"
+    },
+    {
+      "x": 596,
+      "y": 63,
+      "z": -780,
+      "terrain": "water"
+    },
+    {
+      "x": 700,
+      "y": 63,
+      "z": -896,
+      "terrain": "water"
+    },
+    {
+      "x": 812,
+      "y": 63,
+      "z": -1008,
+      "terrain": "water"
+    },
+    {
+      "x": 916,
+      "y": 63,
+      "z": -1128,
+      "terrain": "water"
+    },
+    {
+      "x": 1016,
+      "y": 67,
+      "z": -1220,
+      "terrain": "land"
+    }
+  ],
+  "distance": 1798.1647891378234
+}

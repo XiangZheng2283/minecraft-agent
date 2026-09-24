@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {turnStep,angleDelta} from '../../camera-control.mjs';
+test('turn steps obey 45 degree cap including combined yaw and pitch',()=>{for(let a=-180;a<=180;a+=15)for(let b=-90;b<=90;b+=15){const from={yaw:0,pitch:0},to={yaw:a*Math.PI/180,pitch:b*Math.PI/180},step=turnStep(from,to);assert.ok(Math.hypot(angleDelta(step.yaw,0),step.pitch)<=45*Math.PI/180+1e-10);}});
+test('wrap uses shortest turn across 360 degrees',()=>{const s=turnStep({yaw:179*Math.PI/180,pitch:0},{yaw:-179*Math.PI/180,pitch:0});assert.ok(Math.abs(angleDelta(s.yaw,179*Math.PI/180)-2*Math.PI/180)<1e-10);});
+test('a half turn advances smoothly and reaches the target',()=>{let s={yaw:0,pitch:0};for(let i=0;i<20;i++)s=turnStep(s,{yaw:Math.PI,pitch:0});assert.ok(Math.abs(s.yaw-Math.PI)<1e-10);});

@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {Vec3} from 'vec3';import {preparationActions} from '../../eyes-preparation.mjs';import {meleeWeapon,meleeCooldown} from '../../melee-weapon.mjs';
+test('Stone reserve collection does not return to a distant table without a needed recipe',async()=>{
+ const i={stone_axe:1,iron_pickaxe:1,iron_sword:1,stone_pickaxe:3,oak_planks:64,stick:16,cobblestone:40,dirt:32,bread:16,shield:1,crafting_table:1,fire_charge:1};
+ const item=n=>i[n]?{name:n,count:i[n]}:null,table={position:new Vec3(10,70,0)},q=new Vec3(1,70,0);const b={entity:{position:new Vec3(0,70,0)},inventory:{items:()=>Object.keys(i).map(item),slots:{45:item('shield')}},registry:{blocksByName:new Proxy({},{get:(_,name)=>({id:name})}),itemsByName:new Proxy({},{get:(_,name)=>({id:name})})},findBlock:()=>table,findBlocks:()=>[q],recipesFor:()=>[{}]};
+ const options=[];preparationActions(b,(key,description,fn)=>options.push({key,fn}),{go:()=>{throw Error('Unneeded table trip')},mine:async()=>{i.cobblestone++},item,inventory:()=>i,route:{requiresEyes:true}});assert.equal(options.some(o=>o.key==='approach_table'),false);await options.find(o=>o.key==='stone_batch').fn();assert.equal(i.cobblestone,48);
+});
+test('Nether melee selects a non-sweeping axe and gives it enough recovery time',()=>{const items={iron_sword:{name:'iron_sword'},stone_axe:{name:'stone_axe'}};const w=meleeWeapon({game:{dimension:'the_nether'}},n=>items[n]);assert.equal(w.name,'stone_axe');assert.equal(meleeCooldown(w),23);});

@@ -1,0 +1,72 @@
+[
+  {
+    "scenario": "100-block boat lane",
+    "version": "previous",
+    "seconds": 17.973,
+    "jevDecisions": 4,
+    "samples": [
+      {
+        "result": "Rowed 30.2 blocks",
+        "position": {
+          "x": 32.97920996174828,
+          "y": 63.18437499341225,
+          "z": 6.110538531845535
+        },
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "result": "Rowed 29.0 blocks",
+        "position": {
+          "x": 62.93169917072479,
+          "y": 63.18437499182763,
+          "z": 5.38701549385715
+        },
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "result": "Rowed 28.5 blocks",
+        "position": {
+          "x": 91.49393172128534,
+          "y": 63.18437499182763,
+          "z": 4.719085949429986
+        },
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "result": "Rowed 4.4 blocks",
+        "position": {
+          "x": 97.12281856556922,
+          "y": 63.18437499182763,
+          "z": 4.572035201524468
+        },
+        "model": "typesafe/jev-1.13-20260917"
+      }
+    ]
+  },
+  {
+    "scenario": "100-block boat lane",
+    "version": "revised",
+    "seconds": 16.632,
+    "jevDecisions": 2,
+    "samples": [
+      {
+        "result": "Rowed 89.1 blocks",
+        "position": {
+          "x": 92.70085848621176,
+          "y": 63.18437499182763,
+          "z": 4.669022982966789
+        },
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "result": "Rowed 4.6 blocks",
+        "position": {
+          "x": 96.8627579492508,
+          "y": 63.18437499182763,
+          "z": 4.567117895973962
+        },
+        "model": "typesafe/jev-1.13-20260917"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+// Preserve iron durability for gold and other blocks that require iron.
+export function tunnelTool(bot,block){return bot.inventory.items().find(i=>i.name==='stone_pickaxe'&&(!block.harvestTools||block.harvestTools[i.type]))||bot.inventory.items().find(i=>i.name==='wooden_pickaxe'&&(!block.harvestTools||block.harvestTools[i.type]))||bot.pathfinder.bestHarvestTool(block);}
+export function spareToolsReady(i){return !!(i.stone_axe||i.iron_axe||i.diamond_axe)&&(i.stone_pickaxe||0)>=3&&Object.entries(i).filter(([n])=>n.endsWith('_planks')).reduce((n,[,v])=>n+v,0)>=64&&(i.stick||0)>=16&&(i.cobblestone||0)>=48;}

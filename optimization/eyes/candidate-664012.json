@@ -1,0 +1,233 @@
+{
+  "seed": "664012",
+  "spawn": [
+    32,
+    96
+  ],
+  "village": [
+    128,
+    64
+  ],
+  "ruin": [
+    144,
+    96
+  ],
+  "fortress": [
+    16,
+    -128
+  ],
+  "bastion": [
+    -112,
+    16
+  ],
+  "chests": [
+    {
+      "p": {
+        "x": 119,
+        "y": 71,
+        "z": 46
+      },
+      "items": [
+        {
+          "name": "apple",
+          "count": 1
+        },
+        {
+          "name": "emerald",
+          "count": 1
+        },
+        {
+          "name": "oak_sapling",
+          "count": 1
+        },
+        {
+          "name": "apple",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 115,
+        "y": 70,
+        "z": 35
+      },
+      "items": [
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "oak_sapling",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 2
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "apple",
+          "count": 1
+        },
+        {
+          "name": "feather",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "oak_sapling",
+          "count": 1
+        },
+        {
+          "name": "apple",
+          "count": 1
+        },
+        {
+          "name": "apple",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 161,
+        "y": 70,
+        "z": 86
+      },
+      "items": [
+        {
+          "name": "obsidian",
+          "count": 1
+        },
+        {
+          "name": "iron_ingot",
+          "count": 1
+        },
+        {
+          "name": "iron_ingot",
+          "count": 1
+        },
+        {
+          "name": "obsidian",
+          "count": 6
+        },
+        {
+          "name": "iron_ingot",
+          "count": 1
+        },
+        {
+          "name": "iron_ingot",
+          "count": 1
+        },
+        {
+          "name": "iron_sword",
+          "count": 1
+        },
+        {
+          "name": "iron_boots",
+          "count": 1
+        },
+        {
+          "name": "iron_boots",
+          "count": 1
+        },
+        {
+          "name": "iron_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "beds": [
+    {
+      "x": 116,
+      "y": 71,
+      "z": 48
+    },
+    {
+      "x": 146,
+      "y": 66,
+      "z": 79
+    },
+    {
+      "x": 117,
+      "y": 70,
+      "z": 38
+    },
+    {
+      "x": 105,
+      "y": 72,
+      "z": 46
+    },
+    {
+      "x": 158,
+      "y": 66,
+      "z": 77
+    },
+    {
+      "x": 115,
+      "y": 73,
+      "z": 16
+    },
+    {
+      "x": 75,
+      "y": 76,
+      "z": 28
+    },
+    {
+      "x": 75,
+      "y": 76,
+      "z": 26
+    },
+    {
+      "x": 146,
+      "y": 66,
+      "z": 79
+    },
+    {
+      "x": 158,
+      "y": 66,
+      "z": 77
+    },
+    {
+      "x": 116,
+      "y": 71,
+      "z": 48
+    },
+    {
+      "x": 105,
+      "y": 72,
+      "z": 46
+    },
+    {
+      "x": 117,
+      "y": 70,
+      "z": 38
+    },
+    {
+      "x": 115,
+      "y": 73,
+      "z": 16
+    }
+  ],
+  "portalBlocks": []
+}

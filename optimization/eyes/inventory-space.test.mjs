@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {reserveItemSpace,unneededInventoryItems} from '../../nether-supplies.mjs';
+function mock(items){const tossed=[];return {tossed,registry:{itemsByName:{potion:{stackSize:1},gold_ingot:{stackSize:64}}},inventory:{slots:{6:{name:'golden_chestplate'}},items:()=>items,emptySlotCount:()=>0},async tossStack(i){tossed.push(i);}};}
+test('A second potion requires a slot; existing potion is not a stack',async()=>{const spare={name:'golden_chestplate',slot:12,count:1},bot=mock([{name:'potion',count:1},spare]);await reserveItemSpace(bot,'potion');assert.deepEqual(bot.tossed,[spare]);});
+test('Gold conversion reserves all nine output items and keeps equipped armor',async()=>{const armor={name:'golden_chestplate',slot:6,count:1},junk={name:'diorite',slot:20,count:4},bot=mock([armor,{name:'gold_ingot',count:60},junk]);assert.deepEqual(unneededInventoryItems(bot),[junk]);await reserveItemSpace(bot,'gold_ingot',()=>{},9);assert.deepEqual(bot.tossed,[junk]);});
+
+test('Unneeded plants and trapdoors can free space for a second potion',async()=>{const {unneededInventoryItems}=await import('../../nether-supplies.mjs');const bot={inventory:{slots:{},items:()=>[{name:'dandelion',slot:10},{name:'oak_sapling',slot:11},{name:'oak_trapdoor',slot:12},{name:'bread',slot:13},{name:'oak_planks',slot:14},{name:'potion',slot:15}]}};assert.deepEqual(unneededInventoryItems(bot).map(i=>i.name),['dandelion','oak_sapling','oak_trapdoor']);});
+
+test("Cracked bricks remain available for shaft lining",()=>{const b=mock([{name:"cracked_polished_blackstone_bricks",slot:20,count:12}]);assert.deepEqual(unneededInventoryItems(b),[])});

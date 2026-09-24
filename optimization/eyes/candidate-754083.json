@@ -1,0 +1,725 @@
+{
+  "seed": "754083",
+  "spawn": [
+    -96,
+    192
+  ],
+  "village": [
+    16,
+    96
+  ],
+  "ruin": [
+    32,
+    16
+  ],
+  "fortress": [
+    112,
+    128
+  ],
+  "bastion": [
+    -96,
+    80
+  ],
+  "chests": [
+    {
+      "p": {
+        "x": -1,
+        "y": 84,
+        "z": 96
+      },
+      "items": [
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "pumpkin_seeds",
+          "count": 1
+        },
+        {
+          "name": "spruce_log",
+          "count": 1
+        },
+        {
+          "name": "pumpkin_seeds",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 2
+        },
+        {
+          "name": "spruce_log",
+          "count": 1
+        },
+        {
+          "name": "pumpkin_seeds",
+          "count": 1
+        },
+        {
+          "name": "pumpkin_seeds",
+          "count": 2
+        },
+        {
+          "name": "pumpkin_seeds",
+          "count": 1
+        },
+        {
+          "name": "pumpkin_seeds",
+          "count": 1
+        },
+        {
+          "name": "spruce_log",
+          "count": 3
+        },
+        {
+          "name": "spruce_log",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 16,
+        "y": 75,
+        "z": 127
+      },
+      "items": [
+        {
+          "name": "fern",
+          "count": 1
+        },
+        {
+          "name": "spruce_log",
+          "count": 1
+        },
+        {
+          "name": "fern",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": -6,
+        "y": 83,
+        "z": 125
+      },
+      "items": [
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "sweet_berries",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "fern",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "sweet_berries",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": -6,
+        "y": 76,
+        "z": 55
+      },
+      "items": [
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 2
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "spruce_sapling",
+          "count": 2
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 2
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "spruce_sapling",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "spruce_sapling",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 8,
+        "y": 80,
+        "z": 43
+      },
+      "items": [
+        {
+          "name": "emerald",
+          "count": 3
+        },
+        {
+          "name": "large_fern",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "emerald",
+          "count": 1
+        },
+        {
+          "name": "sweet_berries",
+          "count": 1
+        },
+        {
+          "name": "emerald",
+          "count": 1
+        },
+        {
+          "name": "sweet_berries",
+          "count": 2
+        },
+        {
+          "name": "sweet_berries",
+          "count": 2
+        },
+        {
+          "name": "pumpkin_seeds",
+          "count": 4
+        },
+        {
+          "name": "pumpkin_seeds",
+          "count": 1
+        },
+        {
+          "name": "emerald",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 3
+        },
+        {
+          "name": "spruce_log",
+          "count": 4
+        },
+        {
+          "name": "spruce_log",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 24,
+        "y": 81,
+        "z": 37
+      },
+      "items": [
+        {
+          "name": "saddle",
+          "count": 1
+        },
+        {
+          "name": "leather",
+          "count": 2
+        },
+        {
+          "name": "leather_chestplate",
+          "count": 1
+        },
+        {
+          "name": "leather_chestplate",
+          "count": 1
+        },
+        {
+          "name": "leather",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 5,
+        "y": 84,
+        "z": 31
+      },
+      "items": [
+        {
+          "name": "sweet_berries",
+          "count": 1
+        },
+        {
+          "name": "bread",
+          "count": 1
+        },
+        {
+          "name": "spruce_log",
+          "count": 1
+        },
+        {
+          "name": "potato",
+          "count": 2
+        },
+        {
+          "name": "potato",
+          "count": 1
+        },
+        {
+          "name": "sweet_berries",
+          "count": 1
+        },
+        {
+          "name": "sweet_berries",
+          "count": 1
+        },
+        {
+          "name": "sweet_berries",
+          "count": 1
+        },
+        {
+          "name": "spruce_log",
+          "count": 1
+        },
+        {
+          "name": "sweet_berries",
+          "count": 1
+        },
+        {
+          "name": "spruce_log",
+          "count": 1
+        },
+        {
+          "name": "spruce_log",
+          "count": 1
+        },
+        {
+          "name": "sweet_berries",
+          "count": 2
+        },
+        {
+          "name": "large_fern",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "p": {
+        "x": 40,
+        "y": 68,
+        "z": 25
+      },
+      "items": [
+        {
+          "name": "golden_carrot",
+          "count": 1
+        },
+        {
+          "name": "golden_horse_armor",
+          "count": 1
+        },
+        {
+          "name": "golden_hoe",
+          "count": 1
+        },
+        {
+          "name": "golden_carrot",
+          "count": 1
+        },
+        {
+          "name": "golden_helmet",
+          "count": 1
+        },
+        {
+          "name": "golden_carrot",
+          "count": 2
+        },
+        {
+          "name": "fire_charge",
+          "count": 1
+        },
+        {
+          "name": "iron_nugget",
+          "count": 8
+        },
+        {
+          "name": "iron_nugget",
+          "count": 1
+        },
+        {
+          "name": "golden_boots",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "beds": [
+    {
+      "x": -1,
+      "y": 84,
+      "z": 98
+    },
+    {
+      "x": 18,
+      "y": 75,
+      "z": 127
+    },
+    {
+      "x": 1,
+      "y": 80,
+      "z": 68
+    },
+    {
+      "x": -16,
+      "y": 78,
+      "z": 85
+    },
+    {
+      "x": -8,
+      "y": 83,
+      "z": 125
+    },
+    {
+      "x": 48,
+      "y": 69,
+      "z": 126
+    },
+    {
+      "x": -6,
+      "y": 76,
+      "z": 57
+    },
+    {
+      "x": 6,
+      "y": 80,
+      "z": 43
+    },
+    {
+      "x": -7,
+      "y": 76,
+      "z": 45
+    },
+    {
+      "x": 3,
+      "y": 84,
+      "z": 31
+    },
+    {
+      "x": 3,
+      "y": 84,
+      "z": 31
+    },
+    {
+      "x": 6,
+      "y": 80,
+      "z": 43
+    },
+    {
+      "x": -7,
+      "y": 76,
+      "z": 45
+    },
+    {
+      "x": -6,
+      "y": 76,
+      "z": 57
+    },
+    {
+      "x": 1,
+      "y": 80,
+      "z": 68
+    },
+    {
+      "x": -16,
+      "y": 78,
+      "z": 85
+    }
+  ],
+  "portalBlocks": [
+    {
+      "p": {
+        "x": 36,
+        "y": 69,
+        "z": 24
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 36,
+        "y": 68,
+        "z": 24
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 37,
+        "y": 68,
+        "z": 24
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 38,
+        "y": 68,
+        "z": 24
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 39,
+        "y": 68,
+        "z": 24
+      },
+      "name": "crying_obsidian"
+    },
+    {
+      "p": {
+        "x": 39,
+        "y": 68,
+        "z": 22
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 36,
+        "y": 68,
+        "z": 21
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 36,
+        "y": 68,
+        "z": 20
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 39,
+        "y": 68,
+        "z": 20
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 36,
+        "y": 68,
+        "z": 19
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 37,
+        "y": 68,
+        "z": 19
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 38,
+        "y": 68,
+        "z": 19
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 39,
+        "y": 68,
+        "z": 19
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 36,
+        "y": 68,
+        "z": 19
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 36,
+        "y": 68,
+        "z": 20
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 37,
+        "y": 68,
+        "z": 19
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 36,
+        "y": 68,
+        "z": 21
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 38,
+        "y": 68,
+        "z": 19
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 39,
+        "y": 68,
+        "z": 19
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 39,
+        "y": 68,
+        "z": 20
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 36,
+        "y": 69,
+        "z": 24
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 36,
+        "y": 68,
+        "z": 24
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 39,
+        "y": 68,
+        "z": 22
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 37,
+        "y": 68,
+        "z": 24
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 38,
+        "y": 68,
+        "z": 24
+      },
+      "name": "obsidian"
+    },
+    {
+      "p": {
+        "x": 39,
+        "y": 68,
+        "z": 24
+      },
+      "name": "crying_obsidian"
+    }
+  ]
+}
