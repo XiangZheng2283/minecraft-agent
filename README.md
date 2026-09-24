@@ -1,5 +1,7 @@
 # Astra and JEV Minecraft agent
 
+> 部署指南：[Windows](docs/deploy-windows.md) · [Linux](docs/deploy-linux.md)
+
 This project uses GPT-6 Astra or GPT-5.6 Sol to plan and JEV to select player actions in Minecraft Java 1.16.5. It uses the official vanilla server and Mineflayer. A read-only Java sensor can report the exact dragon head position. It does not change game rules or entity state. Each selected action is sent to the game through the normal player protocol.
 
 ## Latest verified result
@@ -161,60 +163,23 @@ Only one native client is mirrored. With `NATIVE_VIEW=1`, set `NATIVE_MIRROR_BOT
 
 Run `node --test bot/*.test.mjs` for the agent framework tests.
 
-## 平台方案（Windows / Linux）
+## 部署（Windows / Linux）
 
-代码只有一份，平台差异只在启动脚本里：
+代码只有一份，平台差异只在启动脚本里。完整步骤见：
 
-| 方案 | 服务器 + agent | 原生客户端 + WebRTC 画面 | 用到的脚本 |
-|---|---|---|---|
-| A. Windows 单机 | Windows | Windows，打开 `http://127.0.0.1:25590/` | `start-server.ps1`、`start-agent.ps1`、`start-native.ps1` |
-| B. Linux 跑 agent，Windows 看画面 | Linux，mirror 监听 `0.0.0.0:25578` | Windows，`start-native.ps1 -MirrorHost <Linux IP>` | Linux：`start-server.sh`、`start-agent.sh`；Windows：`start-native.ps1` |
+- **[docs/deploy-windows.md](docs/deploy-windows.md)**：方案 A Windows 单机，或方案 B 在 Windows 上只运行原生客户端，连接 Linux。
+- **[docs/deploy-linux.md](docs/deploy-linux.md)**：Linux 运行服务器和 agent，mirror 对外开放，画面由 Windows 提供。
 
-两种方案都开启 `NATIVE_VIEW=1`：agent 会等原生客户端加载完成、进入游戏后才开始行动；客户端断开时 agent 暂停，重新连上后自动恢复（`WAIT_NATIVE=0` 可关闭这个行为）。Linux 上不运行原生客户端。
+| 方案 | 服务器 + agent | 原生客户端 + WebRTC 画面 |
+|---|---|---|
+| A. Windows 单机 | Windows：`start-server.ps1`、`start-agent.ps1` | Windows：`start-native.ps1`，打开 `http://127.0.0.1:25590/` |
+| B. Linux + Windows | Linux：`start-server.sh`、`start-agent.sh` | Windows：`start-native.ps1 -MirrorHost <Linux IP>` |
 
-不提交到 Git 的内容（由脚本在各平台本地生成）：`node_modules/`，`server/`，`native-client/` 下的 `assets`、`libraries`、`natives`、`webrtc`、`classes`、`client.jar`、`native-view-agent.jar`、`classpath.txt`、`config.json`，以及 `agents/*/data/`、`runs/`、`data/knowledge/*.db`。换一台机器后，重新运行 `npm install`；如果这台机器要跑原生客户端，再运行 `python native-client/install.py` 和 `native-client/build.*`。
+开启 `NATIVE_VIEW=1` 后，agent 要等原生客户端加载完成、进入游戏才开始行动；客户端断开时 agent 暂停，重连后自动恢复（设置 `WAIT_NATIVE=0` 可关闭）。
 
-## Windows
+Windows speedrun 录屏补充说明：Banner 和 overlay 使用 `C:\Windows\Fonts` 下的 Consolas 和 Arial；`native-client/windows.m`、`windows.swift` 和 `optimization/eyes/relay-*.mjs` 只适用于 macOS/OpenRouter，没有移植。仅更换日志目录不会重置世界：需要停掉服务器，换一个未用过的 `level-name`，用同一个 seed 重新启动，旧世界保留作为证据。
 
-Requirements: Windows 10/11 x64, Java 17 JDK, Node.js 18+, Python 3, and `ffmpeg`/`ffprobe` on `PATH` (for example `winget install Gyan.FFmpeg`). Set `FFMPEG` if ffmpeg is not on `PATH`. Place the official 1.16.5 `server.jar` in `server/`.
-
-```powershell
-$env:MC_JAVA_HOME = 'C:\Program Files\Eclipse Adoptium\jdk-17'
-$env:MINECRAFT_DIR = 'D:\Games\.minecraft'   # optional, reuses downloaded assets
-npm install
-python native-client\install.py
-.\build-observer.ps1
-.\native-client\build.ps1
-.\start-server.ps1
-```
-
-Then set the model variables and start the agent from another PowerShell window, and run `python native-client\launch.py` when the mirror is listening. The `.sh` scripts also work from Git Bash. Banner and overlay text use Consolas and Arial from `C:\Windows\Fonts`. The debugging helpers `native-client/windows.m`, `native-client/windows.swift`, and the `optimization/eyes/relay-*.mjs` injection scripts are macOS/OpenRouter-specific and are not ported.
-
-A new log directory alone does not reset the world. Stop the server, choose a new unused `level-name`, and start it again with the same seed. Keep the old world as evidence.
-
-Run `node --test evidence.test.mjs native-mirror.test.mjs optimization/*.test.mjs optimization/pass-2/policy.test.mjs optimization/nether/*.test.mjs` to check completion events, native packets, action policy, and pathfinder cancellation. Live server tests remain necessary for movement, crafting, combat, and recording.
-
-## Linux 跑 agent，Windows 看原生画面
-
-Linux 只运行服务器和 agent，并把原生视图镜像（mirror）开放在 `0.0.0.0:25578`；Windows 运行隐藏的官方 1.16.5 客户端连接它，画面通过客户端内置的 WebRTC 在 Windows 本机查看。Linux 端不需要 Java 客户端、显示或 ffmpeg。
-
-Linux（需要 Java 17、Node.js 18+，官方 1.16.5 `server.jar` 放进 `server/`；`npm install` 会编译 `canvas`，Debian/Ubuntu 需先安装 `build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev`）：
-
-```sh
-npm install
-./start-server.sh                                          # 终端 1
-CPA_API_KEY=... TYPE_SAFE_API_KEY=... ./start-agent.sh     # 终端 2，默认 helper；日志出现 "Native mirror listening on 0.0.0.0:25578"
-```
-
-Windows（首次需要 `python native-client\install.py` 和 `.\native-client\build.ps1`，并设置 `MC_JAVA_HOME`）：
-
-```powershell
-.\start-native.ps1 -MirrorHost <Linux IP>
-```
-
-然后在 Windows 浏览器打开 `http://127.0.0.1:25590/`。Linux 日志出现 `Native read-only viewer ready` 即表示连接成功。
-
-变量：`NATIVE_MIRROR_HOST`（Linux 端为监听地址，Windows 端为连接地址）、`NATIVE_MIRROR_PORT`（默认 25578）、`NATIVE_MIRROR_BOT`（镜像哪个 agent，默认第一个）、`NATIVE_MIRROR_READY_DELAY_MS`（远程模式下客户端登录后等待资源加载的时间，默认 20000；画面缺区块时调大）。远程模式（`NATIVE_MIRROR_REMOTE=1`）无法读取客户端机器上的文件，因此不支持 `NATIVE_RECORD` 录屏和 `WAIT_NATIVE`，这两项仍需单机运行。25578 端口没有鉴权，只能被一个客户端连接，请用防火墙只放行 Windows 的 IP。
+离线测试：`node --test evidence.test.mjs native-mirror.test.mjs optimization/*.test.mjs optimization/pass-2/policy.test.mjs optimization/nether/*.test.mjs`。移动、合成、战斗和录屏仍需在真实服务器上测试。
 
 ## Sources
 
