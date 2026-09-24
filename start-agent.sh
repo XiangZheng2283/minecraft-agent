@@ -31,6 +31,8 @@ export RUN_ID="${RUN_ID:-test_bot_2}"
 
 # 原生视图：mirror 对外监听，客户端在 Windows 上。只镜像一个 bot，默认第一个 agent。
 export NATIVE_VIEW="${NATIVE_VIEW:-1}"
+# 默认不录屏（不需要 ffmpeg）。远程模式本来也不支持录屏。
+export NATIVE_RECORD=0
 export NATIVE_MIRROR_HOST="${NATIVE_MIRROR_HOST:-0.0.0.0}"
 export NATIVE_MIRROR_PORT="${NATIVE_MIRROR_PORT:-25578}"
 export NATIVE_MIRROR_REMOTE="${NATIVE_MIRROR_REMOTE:-1}"

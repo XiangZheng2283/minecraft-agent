@@ -18,6 +18,8 @@ $env:HTTPS_PROXY="http://127.0.0.1:7890"
 $env:NO_PROXY="*.xzaiweb.cn,localhost,127.0.0.1,::1"
 $env:MC_PORT='25565'
 $env:NATIVE_VIEW='1'
+# 默认不录屏（不需要 ffmpeg）；需要录屏时改成 '1'
+$env:NATIVE_RECORD='0'
 
 $env:HELPER_OWNER='command2283'
 if ($null -eq [Environment]::GetEnvironmentVariable('HELPER_USERNAME')) {
