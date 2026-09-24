@@ -22,9 +22,6 @@ export DECISION_MODEL="${DECISION_MODEL:-jev-latest}"
 export NO_PROXY="${NO_PROXY:-*.xzaiweb.cn,localhost,127.0.0.1,::1}"
 export MC_PORT="${MC_PORT:-25565}"
 
-# 不使用本地模型中转（model-relay.mjs）：清掉可能从外部环境继承的 MODEL_RELAY，直接请求模型 API。
-unset MODEL_RELAY
-
 export HELPER_OWNER="${HELPER_OWNER:-command2283}"
 export HELPER_USERNAME="${HELPER_USERNAME:-${MC_USERNAME:-test_bot_1}}"
 export RUN_ID="${RUN_ID:-test_bot_2}"

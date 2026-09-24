@@ -17,8 +17,6 @@ $env:HTTP_PROXY="http://127.0.0.1:7890"
 $env:HTTPS_PROXY="http://127.0.0.1:7890"
 $env:NO_PROXY="*.xzaiweb.cn,localhost,127.0.0.1,::1"
 $env:MC_PORT='25565'
-# 不使用本地模型中转（model-relay.mjs）：清掉可能从外部环境继承的 MODEL_RELAY，直接请求模型 API。
-Remove-Item Env:MODEL_RELAY -ErrorAction SilentlyContinue
 $env:NATIVE_VIEW='1'
 
 $env:HELPER_OWNER='command2283'
